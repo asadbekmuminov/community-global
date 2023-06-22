@@ -1,0 +1,188 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-tight-v3-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v3-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v3-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-tight-v3-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 2px dotted var(--orange-color);
+  outline-offset: 5px;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+:root {
+  --orange-color: #f58a07;
+  --section-bg: #dceaf5;
+  --title-black: #0d1317;
+  --title-dark-blue: #1d3444;
+  --main-body-color: #5b5b5b;
+  --border-pale-color: #a8bccc;
+  --white-color: #fff;
+  --main-font: "Poppins" sans-serif;
+  --secondary-font: "Inter", sans-serif;
+  --footer-color: rgba(255, 255, 255, 1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+.container {
+  width: 100%;
+  max-width: 1480px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+main {
+  flex-grow: 1;
+}
+.btn {
+  border-radius: 3.1rem;
+  padding: 1.8rem 3.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: rotate(-5deg);
+}
+.main {
+}
+.policy-wrapper {
+  margin-top: 10.8rem;
+  width: 100%;
+  max-width: 752px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: rgba(91, 91, 91, 1);
+}
+.policy-title {
+  color: rgba(29, 52, 68, 1);
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 1.19;
+  letter-spacing: -3%;
+  margin-bottom: 2.4rem;
+}
+.title__text_top {
+  margin-bottom: 4.8rem;
+}
+.title__text_center {
+  margin-bottom: 2.4rem;
+}
+.title__text_end {
+  margin-bottom: 4rem;
+}
+.policy-center_title {
+  color: rgba(13, 19, 23, 1);
+  font-size: 2.4rem;
+  line-height: 1.25;
+  letter-spacing: -3%;
+  margin-bottom: 2.4rem;
+}
+.center-title__text_top {
+  margin-bottom: 2.4rem;
+}
+.center-title__text_bottom {
+  margin-bottom: 4rem;
+}
+.policy-end_title {
+  color: rgba(13, 19, 23, 1);
+  font-size: 2.4rem;
+  line-height: 1.25;
+  letter-spacing: -3%;
+  margin-bottom: 2.4rem;
+}
+.end-title_text {
+  margin-bottom: 12.8rem;
+}
